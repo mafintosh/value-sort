@@ -1,6 +1,6 @@
 {
   "name": "value-sort",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fast and iterable data structure for sorting bounded values",
   "main": "index.js",
   "dependencies": {
