@@ -15,7 +15,7 @@ class ValueSort {
     if (this._set.set(value, true)) this.values++
   }
 
-  sort () {
+  toArray () {
     const ite = this._set.iterator()
     const arr = new Array(this.values)
     for (var i = 0; i < this.values; i++) {

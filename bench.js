@@ -11,7 +11,7 @@ if (algo === 'value-sort') {
       vs.add(Math.floor(Math.random() * 1000000))
     }
 
-    vs.sort()
+    for (const k of vs) {}
   }
 } else if (algo === 'array-sort') {
   for (var i = 0; i < 100; i++) {
@@ -21,7 +21,7 @@ if (algo === 'value-sort') {
       arr.push(Math.floor(Math.random() * 1000000))
     }
 
-    arr.sort(cmp)
+    for (const k of arr.sort(cmp)) {}
   }
 } else {
   console.error('Usage: node bench.js array-sort|value-sort')
