@@ -1,0 +1,20 @@
+{
+  "name": "value-sort",
+  "version": "0.0.0",
+  "description": "Fast and iterable data structure for sorting bounded values",
+  "main": "index.js",
+  "dependencies": {
+    "indexed-bitfield": "^2.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/value-sort.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/value-sort/issues"
+  },
+  "homepage": "https://github.com/mafintosh/value-sort"
+}
